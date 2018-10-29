@@ -1,7 +1,7 @@
 FROM microsoft/dotnet:2.1.5-aspnetcore-runtime-alpine
 
 # Set ASPNETCORE_URLS
-ENV ASPNETCORE_URLS=https://*:8080
+ENV ASPNETCORE_URLS=http://*:8080
 
 # Switch to root for changing dir ownership/permissions
 USER 0
